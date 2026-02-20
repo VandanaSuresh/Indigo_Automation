@@ -1,3 +1,6 @@
+# created by Vandana Suresh
+# date - january 2025
+
 import os
 import time
 import re
@@ -141,3 +144,6 @@ with open(log_file_path, "a", encoding="utf-8") as log_file:
     log_file.write(summary)
 
 driver.quit()
+
+© 2025 Tata Institute for Genetics and Society (TIGS), Bangalore, India
+All rights reserved.
