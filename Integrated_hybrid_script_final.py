@@ -65,13 +65,13 @@ class AnalysisLogger:
     
     def warning(self, message):
         """Log warning message"""
-        print(f"⚠ WARNING: {message}")
+        print(f"WARNING: {message}")
         self._write_to_file(f"[WARNING] {message}")
         self.warnings.append(message)
     
     def success(self, message):
         """Log success message"""
-        print(f"✓ {message}")
+        print(f" {message}")
         self._write_to_file(f"[SUCCESS] {message}")
     
     def debug(self, message):
@@ -85,9 +85,9 @@ class AnalysisLogger:
                 timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                 f.write(f"{timestamp} - {message}\n")
         except IOError as e:
-            print(f"⚠ Could not write to log file: {e}")
+            print(f" Could not write to log file: {e}")
         except Exception as e:
-            print(f"⚠ Unexpected logging error: {e}")
+            print(f"Unexpected logging error: {e}")
     
     def get_summary(self):
         """Get error and warning summary"""
@@ -112,9 +112,9 @@ try:
         return handle.getvalue()
 
     MultipleSeqAlignment.format = alignment_format_patch
-    print("✓ Biopython compatibility patch applied.")
+    print("Biopython compatibility patch applied.")
 except Exception as e:
-    print(f"⚠ Warning: Could not apply Biopython patch: {e}")
+    print(f"Warning: Could not apply Biopython patch: {e}")
 
 # ==================================================================================
 # CONFIGURATION - UPDATE THESE PATHS
@@ -150,7 +150,7 @@ try:
     ice_output_dir = os.path.join(os.path.dirname(download_dir), "ICE_RESULTS")
     os.makedirs(ice_output_dir, exist_ok=True)
 except OSError as e:
-    print(f"✗ Failed to create output directories: {e}")
+    print(f" Failed to create output directories: {e}")
     sys.exit(1)
 
 # Initialize logger
