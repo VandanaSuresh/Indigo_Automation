@@ -13,14 +13,7 @@ This repository provides a hybrid automation pipeline for high-throughput analys
 
     Advanced logging and structured error handling
 This Version 2 hybrid system ensures maximum reliability, accuracy, and scalability by automatically routing failed INDIGO analyses to ICE as a fallback.
-HYBRID_WORK/
-│
-├── input/                  # Edited sample .ab1 files
-├── wildtype/               # Wild-type control .ab1 file
-├── output/                 # INDIGO HTML results + log file
-├── ICE_RESULTS/            # ICE per-sample results
-├── hybrid_analysis_report.csv
-└── Integrated_hybrid_script_final.py
+
 
 **Required Python Packages**
 pip install selenium pandas biopython
