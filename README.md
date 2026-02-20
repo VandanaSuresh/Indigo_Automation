@@ -1,4 +1,5 @@
 **Overview**
+
 This repository provides a hybrid automation pipeline for high-throughput analysis of Sanger sequencing chromatogram files (.ab1) generated from CRISPR/Cas9-edited plant lines.
 
     Gear Genomics INDIGO Webserver (web-based deconvolution & alignment)
@@ -24,13 +25,16 @@ ICE must be locally cloned and referenced via:
 ice_source_path = r"path_to_ice-master"
 Citation
 
-****If you use this hybrid automation system, please cite:**
+**If you use this hybrid automation system, please cite:**
 
 Suresh, V., Girish, C., & Tavva, V.S.S.
 Python-based automation of INDIGO webserver using Selenium for high-throughput analysis of CRISPR-induced allelic variations.
 bioRxiv (2025).**
 
 **Contact**
+
 Dr. V. S. Sresty Tavva
+
 Tata Institute for Genetics and Society (TIGS)
+
 sresty.tavva@tigs.res.in
