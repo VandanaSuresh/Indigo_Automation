@@ -1,3 +1,4 @@
+[preprint_automation.pdf](https://github.com/user-attachments/files/25441201/preprint_automation.pdf)
 # Indigo_Automation
 Indigo is a webserver for analysing indel mutation in chroimatogram traces of sanger sequence files,which is developed by EMBL. 
 website : https://www.gear-genomics.com/indigo/
