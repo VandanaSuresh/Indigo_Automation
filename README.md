@@ -16,6 +16,7 @@ This Version 2 hybrid system ensures maximum reliability, accuracy, and scalabil
 
 
 **Required Python Packages**
+
 pip install selenium pandas biopython
 
 ICE must be locally cloned and referenced via:
@@ -23,7 +24,7 @@ ICE must be locally cloned and referenced via:
 ice_source_path = r"path_to_ice-master"
 Citation
 
-**If you use this hybrid automation system, please cite:
+****If you use this hybrid automation system, please cite:**
 
 Suresh, V., Girish, C., & Tavva, V.S.S.
 Python-based automation of INDIGO webserver using Selenium for high-throughput analysis of CRISPR-induced allelic variations.
