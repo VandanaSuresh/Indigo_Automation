@@ -23,7 +23,7 @@ pip install selenium pandas biopython
 ICE must be locally cloned and referenced via:
 
 ice_source_path = r"path_to_ice-master"
-Citation
+
 
 **If you use this hybrid automation system, please cite:**
 
